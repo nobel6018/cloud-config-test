@@ -25,3 +25,8 @@ me.leedo:
   name: LeeYoungHoon
   age: 29
   birthYear: 1397
+
+eureka.instance.preferIpAddress: true
+eureka.client.registerWithEureka: true
+eureka.client.fetchRegistry: true
+eureka.client.serviceUrl.defaultZone: http://localhost:8761/eureka
